@@ -4,7 +4,7 @@ import me.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', me.views.home, name="home"),
+    path('', me.views.index, name="index"),
     path('profile/', me.views.profile, name="profile"),
     path('itservice/', me.views.itservice, name="itservice"),
 ]
